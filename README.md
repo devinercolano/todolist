@@ -1,12 +1,12 @@
 # What to install to use the To Do List:
 
 -Install Java and Tomcat on your machine
-**Java**
-https://www.java.com/en/download/help/download_options.xml
+* **Java**
+*https://www.java.com/en/download/help/download_options.xml
 
-**Apache Tomcat Server**
-Use this tutorial to install tomcat 8 on your local ~/Applications directory:
-https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_HowTo.html
+* **Apache Tomcat Server**
+* Use this tutorial to install tomcat 8 on your local ~/Applications directory:
+*https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_HowTo.html
 
 -unzip and move the todoservlet directory into the webapps directory 
 
