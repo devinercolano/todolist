@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+  <title></title>
+</head>
+ 
+<body>
+<h2>Create a ToDo Task</h2>
+<form method="post" action="echo">
+  <fieldset>
+    <legend>New Task</legend>
+    Task: <input type="text" name="task" required/><br /><br />
+    More Details: <br><textarea rows="5" cols="30" name="moreDetails">Enter task details...</textarea><br /><br />
+    Completed:  <input type="checkbox" name="completed" value="true"><br>
+    Deadline:   <input type="date" name="deadline" required><br>
+  </fieldset>
+ 
+  <input type="submit" value="Add"><br>
+</form>
+<form method="get" action="echo">
+    <input type="submit" name="showList" value="Show ToDo List">
+</form>
+</body>
+</html>
